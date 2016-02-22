@@ -9,3 +9,5 @@ HEADERS+=$$PWD/include/SDLOpenGL.h
 QMAKE_CXXFLAGS += $$system(sdl2-config --cflags)
 LIBS+=$$system(sdl2-config --libs)
 include($(HOME)/NGL/UseNGL.pri) #includes extra project file, saves us typing it all
+OTHER_FILES += README.md
+
